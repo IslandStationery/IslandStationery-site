@@ -1,1 +1,155 @@
 # IslandStationery-site
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Island Stationery - Kiribati</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #023e8a;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .service {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #0077b6;
+    }
+
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Island Stationery</h1>
+    <p>Your Trusted Partner for Supplies, Shipping & Island Services</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#locations">Locations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Established in Tarawa, Kiribati, <strong>Island Stationery</strong> has grown into a multi-service business trusted by communities across the islands.
+      Our mission is to provide quality stationery, efficient cargo services, and reliable inter-island logistics that support the daily needs and ambitions of individuals and businesses in Kiribati.
+      <br><br>
+      We are proud to be more than just a stationery shop. With our own shipping fleet and overseas cargo arrangements, we connect islands and help local families and businesses move their goods with ease and trust. 
+      Our resort in Abaiang also provides a peaceful escape for those seeking relaxation amidst the beauty of the Pacific.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+
+    <div class="service">
+      <h3>🖊️ Stationery Sales</h3>
+      <p>We stock a wide range of school, office, and art supplies to meet the needs of students, professionals, and government offices. Visit any of our shops for affordable and reliable stationery products.</p>
+    </div>
+
+    <div class="service">
+      <h3>📦 Overseas Cargo Orders</h3>
+      <p>Need something from overseas? We handle importation, clearing, and delivery of goods ordered internationally, providing peace of mind and timely arrivals.</p>
+    </div>
+
+    <div class="service">
+      <h3>🚢 Ship Cargo Transport</h3>
+      <p>Our two cargo ships serve as vital connectors between the islands of Kiribati. We deliver goods and also accept personal or business cargo, with a simple payment-before-loading policy.</p>
+    </div>
+
+    <div class="service">
+      <h3>🏪 Shop Locations</h3>
+      <ul>
+        <li><strong>Betio, Tarawa</strong> – Main Branch</li>
+        <li><strong>Bikenibeu, Tarawa</strong> – East-side Retail Outlet</li>
+        <li><strong>Marakei Island</strong> – Remote Sales Branch</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <h3>🏝️ Abaiang Resort</h3>
+      <p>Our resort in Abaiang offers accommodation, meals, and guided activities for both local and international guests. Enjoy island life in comfort and peace with Island Stationery Resorts.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> islandstationery@example.com</p>
+    <p><strong>Phone:</strong> +686 12345678</p>
+    <p><strong>Address:</strong> Main Office - Betio, Tarawa, Kiribati</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Island Stationery. All Rights Reserved. | Built proudly in Kiribati 🇰🇮</p>
+  </footer>
+
+</body>
+</html>
